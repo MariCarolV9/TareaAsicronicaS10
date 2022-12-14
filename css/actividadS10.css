@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label{
+    display: inline-block;
+    width: 35%;
+    text-align: left;
+  }
+
+input {
+	padding: 2px 2px;
+	width: 35%;
+	margin: 8px 0;
+    border-radius: 4px;
+}
+
+label, input{
+    padding: 2px;
+}
+
+select{
+    width: 35%;
+    border-radius: 4px;
+}
+
+p{
+    margin: 0px;
+    padding-top: 1px;
+    font-size: 19px;
+}
+
+table{
+    background-color:white;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid rgb(29, 160, 29);  
+    margin: 0px;
+}
+
+th{
+    font-size: 18px; 
+    text-align: center;
+}
+
+td{
+    font-size: 15px;
+}
+
+th, td{
+    padding:  10px;
+}
+
+tr{
+    font-weight: 550;
+}
+
+thead{
+    background-color: rgb(29, 160, 29);
+    color: white;    
+}
+tr:nth-child(even){
+    background-color: rgb(173, 231, 199);
+}
+
+.boton{
+    background-color: green;
+    border: 1px solid rgb(66, 201, 126);
+    border-radius: 5px;
+    margin-top: 15px;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    width: 52%;
+    height: 20%;
+    cursor: pointer;
+}
+.titulo{
+    font-size:30px;
+    font-weight: bold;
+    color: black;
+}
+
+.result{
+    border-collapse: collapse;
+    background-color: rgb(66, 201, 126);
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(15, 29, 29);
+    margin: 10px 0px;
+}
+
+.actividad{
+    border: 1px solid  rgb(66, 201, 126); 
+    background-color: rgb(150, 216, 180);
+    width: 600px;
+	padding: 32px;	
+    text-align: center;
+    margin-top: 15px;
+    margin: 28px auto;  
+    border-radius: 8px; 
+}
